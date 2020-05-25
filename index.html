@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <h1>Conversor de KML para GeoJson</h1>
+
+    <p>
+        É tarefa muito comum termos dificuldade de abrir arquivos KML que contém MultiGeometrias. Para isso criamos um conversor simples em JavaScript para transformar um KML MultiGeometria em um GeoJson de Pontos.
+    </p>
+
+    <p>
+        Basta abrir o arquivo KML, ele será processado e um download iniciará automaticamente.
+    </p>
+
+    <button>
+        <input type="file" id="myFile" accept=".kml,.kmz">
+    </button>   
+
+    <div id="output"></div>
+
+    <script src='kmldist.js'></script>
+</body>
+</html>

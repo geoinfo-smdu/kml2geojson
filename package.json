@@ -1,0 +1,17 @@
+{
+  "name": "kml2geojson",
+  "version": "0.0.1",
+  "description": "",
+  "main": "kml.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/togeojson": "github:mapbox/togeojson",
+    "brfs": "^2.0.2",
+    "uniq": "^1.0.1",
+    "unique": "0.0.1"
+  }
+}
